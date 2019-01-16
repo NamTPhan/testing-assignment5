@@ -35,13 +35,13 @@ export class CompetencetestpageComponent implements OnInit {
   competenceModel = new Competence(null, null, null);
   questionAnswerModel = new Testanswer(null, null, null, null);
 
-  questionDescription: String;
+  questionDescription: string;
   questionCounter: number = 1;
   questionsTotal: number;
   questionShowId: number = 0;
 
   nextQuestionBtn: boolean = true;
-  nextQuestionBtnText: String = "Next Question";
+  nextQuestionBtnText: string = "Next Question";
   submitBtn: boolean = false;
   submitBtnClicked: boolean = false;
 

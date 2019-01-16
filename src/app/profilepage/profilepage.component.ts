@@ -29,7 +29,7 @@ export class ProfilepageComponent implements OnInit {
   userResults: Result[] = new Array();
   score: number[] = new Array();
   scoreCompareResults: number[] = new Array();
-  subCompetences: String[] = new Array();
+  subCompetences: string[] = new Array();
   resultDates: string[] = new Array();
 
   selectedTestDateFirstDropdown: string = "Select Test Result Date";

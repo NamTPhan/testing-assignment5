@@ -11,6 +11,8 @@ import { ToastrService } from "ngx-toastr";
 import { TokenService } from "../services/token.service";
 import { NavbarService } from "../services/navbar.service";
 
+const password = "welcome123";
+
 @Component({
   selector: "app-login",
   templateUrl: "./login.component.html",

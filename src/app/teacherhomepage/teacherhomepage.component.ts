@@ -35,7 +35,7 @@ export class TeacherhomepageComponent implements OnInit {
   classList: Class[] = new Array();
   score: number[] = new Array();
   scoreCompareResults: number[] = new Array();
-  subCompetences: String[] = new Array();
+  subCompetences: string[] = new Array();
   resultDates: string[] = new Array();
   studentCountList: number[] = new Array();
 

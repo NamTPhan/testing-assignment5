@@ -24,9 +24,9 @@ export class CompetenceresultpageComponent implements OnInit {
   competenceNamesChart: string[] = new Array();
   mainCompetenceNamesChart: string[] = new Array();
 
-  bestCompetences: String[] = new Array();
+  bestCompetences: string[] = new Array();
   bestCompetencesPoints: number[] = new Array();
-  worstCompetences: String[] = new Array();
+  worstCompetences: string[] = new Array();
   worstCompetencesPoints: number[] = new Array();
 
   constructor(
@@ -261,4 +261,12 @@ export class CompetenceresultpageComponent implements OnInit {
         this.toastr.error("No response from the server.", "Response fail!");
       });
   }
+
+  // returnLastScore() {
+  //   let a = this.subCompetencesPoints[this.subCompetencesPoints.length - 1];
+  //   let b = this.subCompetencesPoints[0];
+  //   let c = a - b;
+
+  //   return c;
+  // }
 }
