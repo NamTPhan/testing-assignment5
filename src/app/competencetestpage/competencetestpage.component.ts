@@ -11,6 +11,7 @@ import { Result } from "../models/result";
 import { Question } from "../models/question";
 import { Testanswer } from "../models/testanswer";
 import { Competence } from "../models/competence";
+import * as Debug from "debug";
 
 @Component({
   selector: "app-competencetestpage",
@@ -300,6 +301,8 @@ export class CompetencetestpageComponent implements OnInit {
             response[index][2]
           );
           this.subCompetences.push(subCompetenceObject);
+          // Debug.write("loop index is " + index);
+          // debugger;
         }
       })
       .catch(error => {

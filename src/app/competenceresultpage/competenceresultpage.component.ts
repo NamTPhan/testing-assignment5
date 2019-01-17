@@ -205,6 +205,9 @@ export class CompetenceresultpageComponent implements OnInit {
             this.mainCompetencesPoints.push(response[index][2]);
           } else {
             this.subCompetencesPoints.push(response[index][2]);
+            // while (true) {
+            //   console.log(response[index]);
+            // }
           }
         }
       })
